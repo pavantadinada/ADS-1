@@ -1,0 +1,104 @@
+/* Module 1 
+   18031J0012
+Show the contents of the id[ ] array and the number of times the array is accessed for each input pair when you use 
+quick-find, 
+quick-union, 
+weighted quick-union, 
+weighted quick-union path compression, 
+for the sequence of inputs 9-0 3-4 5-8 7-2 2-1 5-7 0-3 4-2.*/
+
+                                Quick-Find
+Step1: Start
+Step2: Condiser an array id
+       									id[0 1 2 3 4 5 6 7 8 9]
+Step3: Execution starts here for sequence of input 9-0
+       									id[0 1 2 3 4 5 6 7 8 0]
+	count = 1
+Step4: For input 3-4
+        								id[0 1 2 4 4 5 6 7 8 0]
+          count = 2
+Step5: For input 5-8
+        								id[0 1 2 4 4 8 6 7 8 0]
+           count = 3
+Step6: For input 7-2
+									id[0 1 2 4 4 8 6 2 8 0]
+	    count = 4
+Step7: For input 2-1
+        								 id[0 1 1 4 4 8 6 1 8 0]
+           count = 5
+Step8: For input 5-7
+	 								id[0 1 1 4 4 1 6 1 1 0]
+           count = 6
+Step9:   For input 0-3
+       									id[4 1 1 4 4 1 6 1 7 4]
+           count = 7
+Step10: For input 4-2
+									id[1 1 1 1 1 1 6 1 1 1]
+          count = 8
+Step11: The array is accesed for 8 times
+Step12: Stop.
+
+				Quick-Union
+
+Step1: Start
+Step2: Condiser an array id
+       									id[0 1 2 3 4 5 6 7 8 9]
+Step3: Execution starts here for sequence of input 9-0
+       									id[0 1 2 3 4 5 6 7 8 0]
+	count = 1
+Step4: For input 3-4
+        								id[0 1 2 4 4 5 6 7 8 0]
+          count = 2
+Step5: For input 5-8
+        								id[0 1 2 4 4 8 6 7 8 0]
+           count = 3
+Step6: For input 7-2
+									id[0 1 2 4 4 8 6 2 8 0]
+	    count = 4
+Step7: For input 2-1
+        								id[0 1 1 4 4 8 6 2 8 0]
+           count = 5
+Step8: For input 5-7
+	 								id[0 1 1 4 4 8 6 2 1 0]
+           count = 6
+Step9:   For input 0-3
+       									id[4 1 1 4 4 8 6 2 1 0]
+           count = 7
+Step10: For input 4-2
+									id[4 1 1 4 1 8 6 2 1 0]
+          count = 8
+Step11: The array is accesed for 8 times
+Step12: Stop.
+
+				Weighted Quick-Union
+
+Step1: Start
+Step2: Condiser an array id
+       									id[0 1 2 3 4 5 6 7 8 9]
+Step3: Execution starts here for sequence of input 9-0
+       									id[9 1 2 3 4 5 6 7 8 9]
+	count = 1
+Step4: For input 3-4
+        								id[9 1 2 3 3 5 6 7 8 9]
+          count = 2
+Step5: For input 5-8
+        								id[9 1 2 3 3 5 6 7 5 9]
+           count = 3
+Step6: For input 7-2
+									id[9 1 7 3 3 5 6 7 5 9]
+	    count = 4
+Step7: For input 2-1
+        								id[9 7 7 3 3 5 6 7 5 9]
+           count = 5
+Step8: For input 5-7
+	 								id[9 7 7 3 3 7 6 7 5 9]
+           count = 6
+Step9:   For input 0-3
+       									id[9 7 7 9 3 7 6 7 5 9]
+           count = 7
+Step10: For input 4-2
+									id[9 7 7 9 3 7 6 7 5 9]
+          count = 8
+Step11: The array is accesed for 8 times
+Step12: Stop.
+ 	
