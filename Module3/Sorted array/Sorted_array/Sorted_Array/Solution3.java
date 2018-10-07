@@ -24,12 +24,11 @@ class Sortedarray {
 		}
 		Arrays.sort(b);
 		//System.out.println("Common elements in both the arrays in sorted order");
-		for(int y=0;y<K-1;y++)
+		for(int y=0;y<K;y++)
 		{
-			if(b[y]==b[y+1])
-			{
+			
 				System.out.print(b[y]+",");
-			}
+			
 		}
 		/*int k=0;
 		if(M>N)
