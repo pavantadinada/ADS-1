@@ -77,7 +77,7 @@ class Sortedarray {
 	
 
 }
-public class Solution3 {
+ class Solution3 {
 	public static void main(String[] args)
 	{
 		int n,m,o = 0;
