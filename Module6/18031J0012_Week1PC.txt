@@ -1,0 +1,74 @@
+/* ADS Week 1 PC
+    18031J0012 */
+
+1.	If the output has multiple values/ multiple new line values write it as comma space separated.
+	use the following Notations for writing Complexity Answers: N, 1, log(N), N^2, N*log(N), 2^N, N^3, log(N)
+ What does the following code fragment print when N is 50 ?
+
+Answer: 110010
+
+2. Give the output printed by Queue for the input at the end of all operations
+If “-” perform dequeue else enqueue each word.
+Playing Cricket - is - a hobby - - of - - mentor - deepak
+
+Answer: deepak
+
+3. Suppose that a client performs an intermixed sequence of (stack) push and pop operations. The push operations put the integers 0 through 9 in order onto the stack; the pop operations print out the return values. Which of the following sequence(s) could not occur?
+Note: For answer write the options in order separated with comma and space eg: a, b, d 
+a. 5 4 3 1 2 0 9 8 7 6
+b. 0 9 8 7 6 5 4 3 2 1
+c. 0 1 2 3 4 5 6 7 8 9
+d. 1 3 5 7 9 2 4 6 8 0
+e. 1 5 0 2 3 4 6 7 8 9
+
+Answer: d, e
+
+4. Give the minimum and maximum occupancy percentages for resizing arrays?
+Give the number of components remain at the end of Quick Find Algorithm for the following union operations.
+a. 3-4
+b. 4-9
+c. 8-0
+d. 2-3
+e. 5-6
+f. 5-9
+g. 7-3
+
+Answer: Five (0,1,4,6,9)
+
+5. {[]()} If you use stacks for checking parentheses balanced or not ? After each iteration, Print the size of the stack.
+
+Answer:
+
+6. Give the order of growth (as a function of N, k ) of the running times of the following code fragment:
+
+Answer: N
+
+7. Give the order of growth (as a function of n ) of the running times of the following code fragment:
+
+Answer: NLogN
+
+8. Give the order of growth (as a function of n ) of the running times of the following code fragment:
+
+Answer: 1
+
+9. Give the order of growth (as a function of n ) of the running times of the following code fragment:
+
+Answer: N^2
+
+10. Give the number of components remain at the end of Quick Find Algorithm for the following union operations.
+a. 3-4
+b. 4-9
+c. 8-0
+d. 2-3
+e. 5-6
+f. 5-9
+g. 7-3
+h. 4-8
+i. 6-1
+
+Answer: Five (0,1,4,6,9)
+ 
+
+
+
+
