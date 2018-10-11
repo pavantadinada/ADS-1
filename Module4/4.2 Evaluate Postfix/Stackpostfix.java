@@ -39,7 +39,7 @@ class Postfix {
 	}
 }
 
-class Stackpostfix {
+public class Stackpostfix {
 
 	public static void main(String[] args) {
 		String exp;
